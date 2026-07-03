@@ -9,8 +9,8 @@ info:
   x-cortex-tag: security-auditor-ai-agent
   x-cortex-type: ai-agent
   x-cortex-link:
-  - url: ../../agents/security-auditor.md
-    name: API Documentation
+  - url: https://github.com/ngbank/agent-skills-test/blob/main/agents/security-auditor.md
+    name: Agent Documentation
     type: DOCUMENTATION
     description: ""  
   x-cortex-definition:
