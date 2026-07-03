@@ -1,0 +1,12 @@
+openapi: 3.0.1
+info:
+  title: code-reviewer
+  description: 
+    This skill is designed to enhance the user experience (UX) of the Flux platform by implementing a series of polishing tasks. It focuses on refining the interface, improving usability, and ensuring consistency across the platform. The skill encompasses a range of activities, including design adjustments, user feedback integration, and performance optimizations, all aimed at delivering a seamless and intuitive user experience.
+  x-cortex-tag: code-reviewer-ai-agent
+  x-cortex-type: ai-agent
+  x-cortex-link:
+  - url: ../../agents/code-reviewer.md
+    name: Code Reviewer AI Agent
+    type: DOCUMENTATION
+    description: "Detailed documentation for the Flux UX Polishing skill."
