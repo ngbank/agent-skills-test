@@ -1,0 +1,14 @@
+openapi: 3.0.1
+info:
+  title: security-auditor
+  description: |
+    This AI agent specializes in lightweight security auditing for pull requests and feature branches.
+    It scans changes for common vulnerabilities, insecure defaults, secret exposure risks, and missing
+    validation checks. The agent outputs prioritized findings with remediation guidance and references
+    to secure coding practices.
+  x-cortex-tag: security-auditor-ai-agent
+  x-cortex-type: ai-agent
+  x-cortex-definition:
+    agentKind: workflow
+    costTier: low
+    entrypoint: internal
