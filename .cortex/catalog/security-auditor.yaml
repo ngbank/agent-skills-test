@@ -8,6 +8,11 @@ info:
     to secure coding practices.
   x-cortex-tag: security-auditor-ai-agent
   x-cortex-type: ai-agent
+  x-cortex-link:
+  - url: ../../agents/security-auditor.md
+    name: API Documentation
+    type: DOCUMENTATION
+    description: ""  
   x-cortex-definition:
     agentKind: workflow
     costTier: low

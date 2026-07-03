@@ -5,6 +5,10 @@ info:
     This skill is designed to enhance the user experience (UX) of the Flux platform by implementing a series of polishing tasks. It focuses on refining the interface, improving usability, and ensuring consistency across the platform. The skill encompasses a range of activities, including design adjustments, user feedback integration, and performance optimizations, all aimed at delivering a seamless and intuitive user experience. Test.
   x-cortex-tag: code-reviewer-ai-agent
   x-cortex-type: ai-agent
+  x-cortex-git:
+    github:
+      alias: cortex
+      repository: ngbank/agent-skills-test
   x-cortex-definition:
     agentKind: workflow
     costTier: low
