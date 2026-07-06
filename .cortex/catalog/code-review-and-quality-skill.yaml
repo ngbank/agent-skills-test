@@ -1,0 +1,15 @@
+openapi: 3.0.1
+info:
+  title: code-review-and-quality-skill
+  description: |
+    Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.
+  x-cortex-tag: code-review-and-quality-skill
+  x-cortex-type: ai-skill
+  x-cortex-link:
+  - url: https://github.com/ngbank/agent-skills-test/blob/main/skills/code-review-and-quality/code-review-and-quality.md
+    name: Skill Documentation
+    type: DOCUMENTATION
+    description: ""  
+  x-cortex-definition:
+    invocation: slash-command
+    riskTier: high
