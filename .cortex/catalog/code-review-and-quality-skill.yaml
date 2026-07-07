@@ -7,7 +7,7 @@ info:
   x-cortex-type: ai-skill
   x-cortex-link:
   - url: https://github.com/ngbank/agent-skills-test/blob/main/skills/code-review-and-quality/code-review-and-quality.md
-    name: Skill Documentation
+    name: AI Skill Documentation
     type: DOCUMENTATION
     description: ""  
   x-cortex-definition:
