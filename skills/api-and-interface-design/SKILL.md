@@ -15,7 +15,7 @@ Design stable, well-documented interfaces that are hard to misuse. Good interfac
 - Defining module boundaries or contracts between teams
 - Creating component prop interfaces
 - Establishing database schema that informs API shape
-- Changing existing public interfaces
+- Changing existing public interfaces ß
 
 ## Core Principles
 
