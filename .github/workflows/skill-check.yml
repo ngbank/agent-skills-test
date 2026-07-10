@@ -36,13 +36,22 @@ jobs:
           pip install git+https://github.com/NVIDIA/SkillSpector.git
 
       - name: Run SkillSpector SARIF scan
+        continue-on-error: true
         run: |
           skillspector scan . \
             --format sarif \
             --output skillspector.sarif \
             --no-llm
 
+      - name: Upload report artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: skillspector-report
+          path: skillspector.sarif
+                  
       - name: Upload SARIF to GitHub Code Scanning
+        if: always()
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: skillspector.sarif
