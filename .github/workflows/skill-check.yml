@@ -8,6 +8,13 @@ on:
       - "**/SKILL.md"
       - "**/AGENTS.md"
       - "**/mcp*.json"
+  
+  push:
+    branches:
+      - main
+
+  schedule:
+    - cron: "0 2 * * *"
 
 permissions:
   contents: read
